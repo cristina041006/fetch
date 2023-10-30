@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <title>Lista de usuarios</title>
+</head>
+<body>
+    <form id="userForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="address">Dirección:</label>
+        <input type="text" name="address" id="address" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="email">Telefono:</label>
+        <input type="text" id="telf" name="telf" required>
+        <button type="submit">Agregar Usuario</button>
+    </form>
+
+      <h2>Lista de Usuarios</h2>
+      <ul id="userList">
+      </ul>
+      
+      <script src="addUserFertch.js"></script>
+</body>
+</html>
